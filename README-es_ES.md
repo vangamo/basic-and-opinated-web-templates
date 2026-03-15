@@ -1,7 +1,7 @@
 # Basic and opinated web templates
 
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/README.md)
-[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/README-es_ES.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/README.md)
+[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/README-es_ES.md)
 
 Este repo incluye una colección de templates de proyectos y carpetas con código listo para usar, muy sencillo pero bien estructurado.
 

@@ -1,7 +1,7 @@
 # Basic and opinated web templates
 
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/README.md)
-[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/README-es_ES.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/README.md)
+[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/README-es_ES.md)
 
 A collection of project templates and boilerplates very basic but well-structured.
 

@@ -1,7 +1,7 @@
 # Pasos para crear un servidor Express
 
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/express-server/README.md)
-[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/master/express-server/README-es_ES.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/express-server/README.md)
+[![es_ES](https://img.shields.io/badge/lang-es--ES-green.svg)](https://github.com/vangamo/basic-and-opinated-web-templates/blob/main/express-server/README-es_ES.md)
 
 ## Instalación
 
