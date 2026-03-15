@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle de <%= titulo %></title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="container">
+        <header class="header">
+          <h1 class="header__title">Catálogo de Animes</h1>
+        </header>
+        <main class="main">
+          <div class="detail-container">
+            <a class="detail-back-link" href="/">← Volver al catálogo</a
+            >
+            <article class="anime-detail">
+              <header class="anime-detail__header">
+                <div class="anime-detail__title-section">
+                  <h1 class="anime-detail__title"><%= titulo %></h1>
+                  <span class="anime-detail__genre"><%= genero %></span>
+                </div>
+                <div class="anime-detail__metadata">
+                  <span class="anime-detail__date"
+                    >📅 <%= fecha_publicacion %></span
+                  ><span class="anime-detail__episodes"
+                    >📺 <%= num_capitulos %> episodios</span
+                  >
+                </div>
+              </header>
+              <div class="anime-detail__body">
+                <section class="anime-detail__section">
+                  <h2 class="anime-detail__section-title">Sinopsis</h2>
+                  <p class="anime-detail__description"><%= descripcion %></p>
+                </section>
+                <section class="anime-detail__section">
+                  <h2 class="anime-detail__section-title">
+                    Información adicional
+                  </h2>
+                  <dl class="anime-detail__info-list">
+                    <div class="anime-detail__info-item">
+                      <dt class="anime-detail__info-label">Estudio:</dt>
+                      <dd class="anime-detail__info-value"><%= estudio %></dd>
+                    </div>
+                    <div class="anime-detail__info-item">
+                      <dt class="anime-detail__info-label">Director:</dt>
+                      <dd class="anime-detail__info-value">
+                        <% if(!directora) { %> No conocida <% } else { %> <%=
+                        directora %> <% } %>
+                      </dd>
+                    </div>
+                    <div class="anime-detail__info-item">
+                      <dt class="anime-detail__info-label">Género:</dt>
+                      <dd class="anime-detail__info-value">Acción</dd>
+                    </div>
+                    <div class="anime-detail__info-item">
+                      <dt class="anime-detail__info-label">Episodios:</dt>
+                      <dd class="anime-detail__info-value">24</dd>
+                    </div>
+                  </dl>
+                </section>
+              </div>
+              <footer class="anime-detail__footer">
+                <a
+                  class="anime-detail__edit-button"
+                  href="#/edit/2"
+                  data-discover="true"
+                  >✏️ Editar</a
+                ><button class="anime-detail__delete-button">
+                  🗑️ Eliminar
+                </button>
+              </footer>
+            </article>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
